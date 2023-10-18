@@ -46,8 +46,7 @@ function App() {
     <NavBar 
     pokemonIndex={pokemonIndex}
     pokemonList={pokemonList}
-    handlePrevClick={handlePrevClick}
-    handleNextClick={handleNextClick}
+   setPokemonIndex={setPokemonIndex}
     />   
   </div>);
 
